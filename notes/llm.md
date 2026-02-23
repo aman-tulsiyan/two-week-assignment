@@ -1,4 +1,5 @@
 ***Day 1***
+
 **Tokens**
 - In the world of LLMs, tokens are the *Lego bricks of language*.
 - Letters can be too small to serve as the building blocks of LLMs.
