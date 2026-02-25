@@ -1,0 +1,38 @@
+prompt_type,output
+Generic,"The text discusses Agentic AI, a type of artificial intelligence that involves a system (agent) that receives a goal, decides on actions, executes them, observes the results, and adjusts its behavior until the goal is achieved. The agent workflow consists of four phases: Plan, Act, Observe, and Reflect.
+
+Key points:
+
+1. **Agent**: A system that receives a goal, decides on actions, executes them, and adjusts its behavior based on the results.
+2. **Phases**: Plan (decide on actions), Act (execute actions), Observe (introspect the output), and Reflect (reason again using the updated state).
+3. **Control**: The system, not the LLM (Large Language Model), should control the Act phase to ensure deterministic and controlled execution.
+4. **Tools**: External capabilities that the agent can use to act in the world.
+5. **State**: The current situation the agent is in, including the task, environment, and previous actions.
+6. **Memory**: The agent's memory, which can be short-term (session-based) or long-term (stored information).
+7. **Constraints**: Rules that limit the agent's actions to prevent unruly behavior.
+8. **Safety measures**: Sandboxing (isolated environment), tool permissions, retries (controlled attempts to execute an action), and timeouts (stopping an action if it takes too long).
+
+The text highlights the importance of control, safety, and constraints in Agentic AI to prevent"
+Structured,"Here are three bullet points summarizing the text:
+
+* An agent in Agentic AI is a system that receives a goal, decides on an action, executes it, observes the results, and adjusts its behavior until the goal is achieved, following a workflow of Plan, Act, Observe, and Reflect phases.
+* The control should remain with the system rather than the LLM in the Act phase because systems are controlled and deterministic, allowing them to validate tool names, arguments, and permissions, and enforce timeouts, whereas LLMs are uncontrolled and probabilistic.
+* Agents in Agentic AI use external tools to act in the world, and their behavior is influenced by their state, memory, and observed outcomes, with safety measures such as sandboxing, tool permissions, retries, and timeouts in place to prevent unruly behavior and ensure security and reliability."
+Audience,"Imagine you have a robot that can help you with tasks. This robot is like a computer program that can think and make decisions on its own. It's called an ""agentic AI"".
+
+The robot works in four steps:
+
+1. **Plan**: The robot thinks about what it needs to do to complete a task.
+2. **Act**: The robot does the actual work, like using a tool to fix something.
+3. **Observe**: The robot checks to see if what it did worked or not.
+4. **Reflect**: The robot thinks about what it did and decides what to do next.
+
+The robot uses tools, like a computer or a machine, to help it complete tasks. It also has a memory, like a brain, that helps it remember what it did before and what it needs to do next.
+
+But, the robot can't just do whatever it wants. There are rules, called constraints, that limit what it can do. These rules are like safety nets that prevent the robot from doing something bad or wasting too much time.
+
+There are also special safety measures, like ""sandboxing"", that keep the robot and its tools separate from important data, so if something goes wrong, the important data is safe.
+
+The robot can also try again if it fails, but it has to be careful not to get stuck in a loop or waste too much time. That's why it has something called ""timeouts"" that stop it if it takes too long.
+
+All of these"

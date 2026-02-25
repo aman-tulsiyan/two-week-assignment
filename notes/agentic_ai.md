@@ -11,7 +11,7 @@
     And repeats until the goal is achieved.
 
 - If we use User -> LLM -> Output; then it is one shot reasoning
-- But if we do User -> LLM -> Tool -> LLM -> Total -> LLM -> Output; that is iterative decision making
+- But if we do User -> LLM -> Tool -> LLM -> Tool -> LLM -> Output; that is iterative decision making
 - There are 4 phases in an agentic workflow. Plan -> Act -> Observe -> Reflect
 
 **Plan**
@@ -83,7 +83,7 @@ There are various safety measures in place which can restrict the agents. They a
 - It is a practice in which the agent along with its tools are run in an isolated, restricted environment.
 - This is done to ensure security and safety of critical data, so in case something happens, the critical data is safe
 
-- **Tool permissions**
+**Tool permissions**
 - These are the permissions given to the agent that define how the agent can use a particular tool.
 - These permissions are critical components of the agent’s safety layer.
 
