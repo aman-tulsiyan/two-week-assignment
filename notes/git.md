@@ -17,7 +17,7 @@
 - git rm <file> : Delete file
 - git rm --cached <file>: Tell Git to forget about a file without deleting it
 - git reset: Unstage everything
-
+- Git Cheat Sheet: https://git-scm.com/cheat-sheet
 
 **Commit Hygiene**
 - Basically means: *don’t commit garbage.*
