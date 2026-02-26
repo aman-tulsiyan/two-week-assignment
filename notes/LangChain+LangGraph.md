@@ -55,5 +55,7 @@
 
 
 **The chains page in langchain is under maintenance**
+- A chain is a sequence of steps that run one after another.
+- Memory in LangChain means the ability for your app to remember previous messages or information from earlier steps.
 
 Sources- LangChain Documentation(https://docs.langchain.com/oss/python/langgraph/graph-api#nodes, https://docs.langchain.com/oss/python/langgraph/graph-api#graphs, ), ChatGPT(chatgpt.com), 
